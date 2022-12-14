@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-nginx-svc
+  name: my-nginx-svc-vault
 spec:
   selector:
       app: nginx    
