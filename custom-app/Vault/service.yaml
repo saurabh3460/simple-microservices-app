@@ -4,7 +4,7 @@ metadata:
   name: my-nginx-svc-vault
 spec:
   selector:
-      app: nginx    
+      app: nginx-vault    
   ports:
     - port: 8080
       targetPort: 8080
